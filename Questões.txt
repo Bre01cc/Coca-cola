@@ -11,29 +11,46 @@ faz com que o git<arquivo> rastrei o arquivo pelo nome em especifico e git . ras
 para selecionar todos os arquivos
 
 5-Explique o comando git commit e por que é importante criar uma mensagem descritiva.
+salvar alterações do codigo é impotante colocar um nome referente a essa alteração
 
 6-Qual a função do comando git push?
+enviar os commit para o repositório
 
 7-Qual a importância de criar commits frequentes durante o desenvolvimento de um projeto?
+salvar vesões dos codigos que estejam funcionando para eventualmente voltar caso ocorra algum problema
 
 8-Explique a função das tags HTML e como elas estruturam uma página.
+Elas definem o conteúdo e a função de cada parte da página, como títulos, parágrafos, imagens, links e seções.
 
 9-O que são atributos em uma tag HTML e qual a sua função?
+Os atributos em uma tag HTML fornecem informações adicionais sobre o elemento. Eles modificam o comportamento ou a aparência do elemento e são sempre incluídos dentro da tag de abertura.
 
 10-O que é o Emmet e como ele facilita o desenvolvimento de páginas HTML?
+O Emmet é uma ferramenta que acelera a escrita de código HTML e CSS, permitindo que os desenvolvedores usem atalhos para gerar estruturas completas de forma rápida.
 
 11-O que é o box-sizing no CSS e por que usamos ele no reset inicial?
+O box-sizing é uma propriedade do CSS que controla como a largura (width) e a altura (height) de um elemento são calculadas, levando em conta o preenchimento (padding) e a borda (border).
+Melhora o controle do layout – Mantém os tamanhos dos elementos previsíveis, Evita cálculos desnecessários – Não precisa somar padding e border manualmente, Facilita a responsividade – Os elementos se ajustam melhor ao layout.
 
 12-Por que é importante utilizar tags semânticas no HTML?
+As tags semânticas no HTML são aquelas que têm significado próprio e ajudam a estruturar melhor o conteúdo da página. Elas informam aos navegadores, motores de busca
 
 13-O que são media queries no CSS e qual a sua função?
+são uma funcionalidade do CSS que permite aplicar estilos diferentes com base nas características do dispositivo, como largura da tela, altura, resolução e orientação. Elas são essenciais para criar layouts responsivos, garantindo que um site se adapte bem a diferentes tamanhos de tela (desktop, tablet, celular).
 
 14-Qual a função do GitHub Pages?
+é um serviço gratuito do GitHub que permite hospedar sites estáticos diretamente de um repositório. Ele é ideal para portfólios, documentações, blogs e projetos simples, sem necessidade de servidores externos.
 
 15-O que é o Flexbox no CSS e para que ele é utilizado?
+é um modelo de layout do CSS que facilita a organização e o alinhamento de elementos em uma página, principalmente quando o tamanho da tela varia. Ele é ideal para criar layouts responsivos e organizar elementos dentro de containers flexíveis.
 
 16-Qual a diferença entre justify-content e align-items em um container Flexbox?
+em um container Flexbox está relacionada ao alinhamento dos itens dentro do container, mas eles operam ao longo de eixos diferentes.
 
 17-Como o flex-grow funciona e qual o seu propósito no layout Flexbox?
+Ele determina como os itens flexíveis dentro de um contêiner devem crescer  em relação aos outros itens. Proposito é que os elementos ocupem o espaço disponivel de maneira proporcional
 
 18-Explique a diferença entre flex-direction: column; e flex-direction: row;.
+A propriedade flex-direction no modelo de layout Flexbox determina a direção em que os itens flexíveis são dispostos dentro de um contêiner flexível.
+Row:Direção, Os itens são organizados horizontalmente, da esquerda para a direita (ou da direita para a esquerda, dependendo da direção do texto).
+Column-Direção, Os itens são organizados verticalmente, de cima para baixo (ou de baixo para cima, dependendo da direção do texto).

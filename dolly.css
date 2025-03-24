@@ -7,26 +7,28 @@
 body {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(#24cf2dad, #6074dab3 50%, #60d6dae3 60%, #3bdaa0b8);
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    background: linear-gradient(#24cf6bdf, #8bda6070 50%, #60dab59e 60%, #3bda6568);
 }
 
 header,
 footer {
     height: 100px;
     background-color: #24cf93c6;
+    display: grid;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    color: #fff;
 }
 
 main {
-    flex-grow: 1;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     background-color: #da606200;
+    overflow: hidden;
 }
 
 .background-logo {
@@ -46,7 +48,7 @@ a {
 }
 
 .content-text {
-    position: absolute;
+    position: relative;
     color: #ffffff;
     font-size: 2.5rem;
     width: 240px;
@@ -55,28 +57,26 @@ a {
 }
 
 .content-image {
-    height: 85vh;
+    height: 80vh;
 }
 
 header {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 32px 42px 100px;
+    gap: 20px;
     padding-left: 75px;
     justify-content: flex-start;
+    align-items: center;
 }
 
 footer {
-    height: 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 32px 42px 100px;
     justify-content: space-between;
     align-items: center;
     padding-right: 75px;
     padding-left: 75px;
-    color: #FFFFFF;
-    font-weight: 100;
+    font-weight: 100px;
 }
 
 footer div {
@@ -98,9 +98,11 @@ footer div {
 
     .content-image {
         height: 70vh;
+
     }
 
     footer {
         padding: 0px 25px;
     }
 }
+
