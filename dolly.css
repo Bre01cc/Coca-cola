@@ -1,36 +1,29 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     width: 100vw;
     height: 100vh;
-    display: grid;
-    grid-template-rows: 100px 1fr 50px;
-    background: linear-gradient(#24cf6bdf, #8bda6070 50%, #60dab59e 60%, #3bda6568);
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(#24cf605f,#60da91c2 50%,#60dad2 60%);
 }
-
-header,
-footer {
+header, footer{
     height: 100px;
-    background-color: #24cf93c6;
-    display: grid;
+    background-color: #24cf9c;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    color: #fff;
 }
-
 main {
-    display: grid;
+    flex-grow: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #da606200;
-    overflow: hidden;
 }
-
 .background-logo {
     position: absolute;
     width: 100%;
@@ -42,13 +35,12 @@ main {
     bottom: 0;
     z-index: -1;
 }
-
-a {
+a{
     color: #FFFFFF;
 }
 
 .content-text {
-    position: relative;
+    position: absolute;
     color: #ffffff;
     font-size: 2.5rem;
     width: 240px;
@@ -57,32 +49,31 @@ a {
 }
 
 .content-image {
-    height: 80vh;
+    height: 85vh;
 }
-
 header {
-    display: grid;
-    grid-template-columns: 32px 42px 100px;
-    gap: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #FFFFFF;
     padding-left: 75px;
     justify-content: flex-start;
-    align-items: center;
 }
-
 footer {
-    display: grid;
-    grid-template-columns: 32px 42px 100px;
+    height: 100px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 75px;
     padding-left: 75px;
-    font-weight: 100px;
+    color: #FFFFFF;
+    font-weight: 100;
 }
 
 footer div {
-    width:64px;
+    width: 64px;
 }
-
 @media (max-width: 768px) {
     header {
         padding-left: 25px;
@@ -98,11 +89,9 @@ footer div {
 
     .content-image {
         height: 70vh;
-
     }
 
     footer {
         padding: 0px 25px;
     }
 }
-
