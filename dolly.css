@@ -26,7 +26,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #da606200;
+    background-color: rgba(218, 96, 98, 0);
+
 }
 .background-logo {
     position: absolute;
@@ -39,9 +40,7 @@ main {
     bottom: 0;
     z-index: -1;
 }
-a{
-    color: #FFFFFF;
-}
+
 
 .content-text {
     position: absolute;
